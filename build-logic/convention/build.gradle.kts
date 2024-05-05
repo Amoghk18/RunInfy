@@ -43,5 +43,9 @@ gradlePlugin {
             id = "runinfy.android.room"
             implementationClass = "AndroidRoomConventionPlugin"
         }
+        register("jvmLibrary") {
+            id = "runinfy.jvm.library"
+            implementationClass = "JvmLibraryConventionPlugin"
+        }
     }
 }

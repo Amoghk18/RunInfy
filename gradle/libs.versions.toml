@@ -124,6 +124,7 @@ runinfy-android-library = {id = "runinfy.android.library", version = "unspecifie
 runinfy-android-library-compose = {id = "runinfy.android.library.compose", version = "unspecified"}
 runinfy-android-feature-ui = {id = "runinfy.android.feature.ui", version = "unspecified"}
 runinfy-android-room = {id = "runinfy.android.room", version = "unspecified"}
+runinfy-jvm-library = {id = "runinfy.jvm.library", version = "unspecified"}
 
 [bundles]
 compose = [
