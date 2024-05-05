@@ -121,3 +121,4 @@ mapsplatform-secrets-plugin = { id = "com.google.android.libraries.mapsplatform.
 runinfy-android-application = {id = "runinfy.android.application", version = "unspecified"}
 runinfy-android-application-compose = {id = "runinfy.android.application.compose", version = "unspecified"}
 runinfy-android-library = {id = "runinfy.android.library", version = "unspecified"}
+runinfy-android-library-compose = {id = "runinfy.android.library.compose", version = "unspecified"}
