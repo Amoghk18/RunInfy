@@ -39,5 +39,9 @@ gradlePlugin {
             id = "runinfy.android.feature.ui"
             implementationClass = "AndroidFeatureUiConventionPlugin"
         }
+        register("androidRoom") {
+            id = "runinfy.android.room"
+            implementationClass = "AndroidRoomConventionPlugin"
+        }
     }
 }
