@@ -27,5 +27,9 @@ gradlePlugin {
             id = "runinfy.android.application.compose"
             implementationClass = "AndroidApplicationComposeConventionPlugin"
         }
+        register("androidLibrary") {
+            id = "runinfy.android.library"
+            implementationClass = "AndroidLibraryConventionPlugin"
+        }
     }
 }
