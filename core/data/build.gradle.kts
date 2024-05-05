@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.runinfy.android.library)
+    alias(libs.plugins.runinfy.jvm.ktor)
 }
 
 android {

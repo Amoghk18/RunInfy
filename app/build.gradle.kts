@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.runinfy.android.application.compose)
+    alias(libs.plugins.runinfy.jvm.ktor)
     alias(libs.plugins.mapsplatform.secrets.plugin)
 }
 

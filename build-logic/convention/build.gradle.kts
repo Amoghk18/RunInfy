@@ -47,5 +47,9 @@ gradlePlugin {
             id = "runinfy.jvm.library"
             implementationClass = "JvmLibraryConventionPlugin"
         }
+        register("jvmKtor") {
+            id = "runinfy.jvm.ktor"
+            implementationClass = "JvmktorConventionPlugin"
+        }
     }
 }
