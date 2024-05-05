@@ -1,6 +1,6 @@
 plugins {
+    alias(libs.plugins.runinfy.android.application.compose)
     alias(libs.plugins.mapsplatform.secrets.plugin)
-    alias(libs.plugins.runinfy.android.application)
 }
 
 android {
@@ -12,13 +12,6 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
-    }
-
-    buildFeatures {
-        compose = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.3"
     }
     packaging {
         resources {
